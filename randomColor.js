@@ -39,9 +39,7 @@ const randomColor = {
 		}
 
 		for (let i = 0; i < 3; i++) {
-			result.push(
-				Math.round(Math.random() * 255)
-			)
+			result.push( Math.round(Math.random() * 255) )
 		}
 		return `rgba(${result.join(', ')}, ${opacity})`;
 	},
